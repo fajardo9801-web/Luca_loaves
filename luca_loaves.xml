@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="luca.xsl" type="text/xsl"?>
+<!DOCTYPE luca_loaves SYSTEM "luca.dtd">
+
+<luca_loaves>
+    <bread id="b1">
+        <name>Sourdough White</name>
+        <price>$7.00</price>
+        <description>Our standard sourdough</description>
+    </bread>
+
+    <bread id="b2">
+        <name>Sourdough Rye</name>
+        <price>$8.00</price>
+        <description>Sourdough created with 50% rye flour</description>
+    </bread>
+
+    <bread id="b3">
+        <name>Sourdough Spelt</name>
+        <price>$9.00</price>
+        <description>Sourdough created with 100% spelt flour</description>
+    </bread>
+
+    <bread id="b4">
+        <name>Sourdough Seeded</name>
+        <price>$9.50</price>
+        <description>Sourdough including a mixture of yummy seeds</description>
+    </bread>
+
+    <gif>Media/Bread.gif</gif>
+    <audio>Media/Sound.mp3</audio>
+</luca_loaves>

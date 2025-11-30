@@ -1,0 +1,12 @@
+<!ELEMENT luca_loaves (bread+, gif, audio)>
+
+<!ELEMENT bread (name, price, description)>
+<!ATTLIST bread
+    id ID #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT gif (#PCDATA)>
+<!ELEMENT audio (#PCDATA)>
